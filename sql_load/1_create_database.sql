@@ -1,2 +1,2 @@
 CREATE DATABASE sql_course;
---CREATE DATABASE
+--Create database

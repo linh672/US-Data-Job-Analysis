@@ -7,8 +7,8 @@ INNER JOIN
 INNER JOIN
     skills_dim ON skills_job_dim.skill_id=skills_dim.skill_id
 WHERE
-    job_title_short='Machine Learning Engineer' 
-    AND job_country='United States' 
+    job_title_short = 'Machine Learning Engineer' 
+    AND job_country = 'United States' 
     AND salary_year_avg IS NOT NULL
 GROUP BY
     skills_dim.skills

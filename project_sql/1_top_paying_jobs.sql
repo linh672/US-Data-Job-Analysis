@@ -6,10 +6,11 @@ SELECT
     job_posted_date,
     name AS company_name
 FROM job_postings_fact
-LEFT JOIN company_dim ON job_postings_fact.company_id=company_dim.company_id
+LEFT JOIN 
+    company_dim ON job_postings_fact.company_id=company_dim.company_id
 WHERE 
-    job_title_short='Machine Learning Engineer' 
-    AND job_country='United States' 
+    job_title_short = 'Machine Learning Engineer' 
+    AND job_country = 'United States' 
     AND salary_year_avg IS NOT NULL
 ORDER BY 
     salary_year_avg DESC
