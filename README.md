@@ -317,3 +317,7 @@ Kubernetes ($144,464) and Go ($156,197) show increasing importance in ML model d
 - **Machine learning engineers must be proficient** in Python, SQL, cloud platforms (AWS/Azure), and deep learning frameworks (TensorFlow/PyTorch) to stay competitive in 2023.
 - **The highest-paying skills for ML engineers in 2023** highlight a strong demand for functional programming (Haskell, Julia - $213K), low-level languages (C - $196K), and backend development (Golang - $194K). Cloud & big data expertise (BigQuery, Snowflake, AWS) and ML frameworks (PyTorch, TensorFlow) also command high salaries, reflecting the need for scalable ML deployment. **Surprisingly,** frontend (HTML, CSS - $195K) and Excel ($189K) rank high, suggesting a rise in ML-powered web applications and data analysis roles. 
 - **Most Optimal Machine Learning Engineer Skills in the U.S:** Machine learning engineers should focus on deep learning (PyTorch, TensorFlow), big data (Spark), and cloud computing (AWS, GCP, Azure) to maximize salary potential. Python and SQL remain must-have foundational skills, but cloud and deployment expertise (Kubernetes, Go) can significantly increase earning potential.
+
+# Credits
+
+!Big shoutout to **Luke Barousse** for the reference implementation!
